@@ -1,0 +1,9 @@
+<h1 align="center">
+  <fmt:message key='text.company_name'/>
+</h1>
+<h1 align="center">
+  <fmt:message key='text.message_1'/>
+</h1>
+<h1 align="center">
+  <fmt:message key='text.message_2'/>
+</h1>

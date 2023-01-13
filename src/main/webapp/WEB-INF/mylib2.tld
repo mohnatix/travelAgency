@@ -1,0 +1,22 @@
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+    version="2.1">
+    
+  <tlib-version>1.1</tlib-version>
+  <short-name>mylib2</short-name>
+  <uri>http://com.my.tags/mylib2</uri>
+
+  <tag>
+    <name>citation</name>
+    <tag-class>com.my.tags.CitationTag</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+        <name>text</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+        <type>java.lang.String</type>
+    </attribute>
+  </tag>
+  
+</taglib>
