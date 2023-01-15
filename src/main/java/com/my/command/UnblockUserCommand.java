@@ -26,10 +26,10 @@ public class UnblockUserCommand implements Command {
             return "controller?command=goToAccessDeniedPage";
         }
         int userId = Integer.parseInt(req.getParameter("userId"));
-        Service.getInstance().unblockUser(userId);
         if (user.getId() == userId) {
             return "controller?command=goToAccessDeniedPage";
         }
+        Service.getInstance().unblockUser(userId);
         return "controller?command=showListOfUsers";
     }
 }

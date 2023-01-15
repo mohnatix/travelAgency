@@ -45,6 +45,7 @@ public class ListToursCommand implements Command {
         session.setAttribute("currentPersonsNumberSearch", personsNumberSearch);
         session.setAttribute("currentDurationSearch", durationSearch);
         session.setAttribute("currentAccommodationSearch", accommodationSearch);
+        session.setAttribute("currentPriceSearch", priceSearch);
         session.setAttribute("currentPage", pageParameter);
         session.setAttribute("currentPageSize", pageSizeParameter);
         session.setAttribute("pageCount", pageCount);

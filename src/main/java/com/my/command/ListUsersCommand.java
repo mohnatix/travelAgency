@@ -15,6 +15,6 @@ public class ListUsersCommand implements Command {
     public String execute(HttpServletRequest req, HttpServletResponse resp) throws DBException {
         List<UserDTO> users = Service.getInstance().findAllUsers();
         req.getSession().setAttribute("users", users);
-        return "list_users.jsp";
+        return "WEB-INF/jsp/list_users.jsp";
     }
 }
